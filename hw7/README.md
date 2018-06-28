@@ -1,10 +1,11 @@
-# Enviroment
+# Environment
 CSIE Workstation
 
 # Preparation
-1. Put `kddb` and `kddb.t` into `data/` folder
-2. `cd src/`
-3. Build the mex file
+1. Create `data/` and `loss` folder (e.g. `mkdir data/ loss/` )
+2. Put `kddb` and `kddb.t` into `data/` folder
+3. `cd src/`
+4. Build the mex file
 ```
 matlab -nodisplay -nosplash -r "LIBLINEAR_PATH = '<LIBLINEAR_PATH>'; run('build.m'); exit"
 ```
