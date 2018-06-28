@@ -1,5 +1,8 @@
 # Environment
 CSIE Workstation
+# Training Data
+- kdd2010 (algebra)
+https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html#kdd2010%20(bridge%20to%20algebra)
 
 # Preparation
 1. Create `data/` and `loss` folder (e.g. `mkdir data/ loss/` )
